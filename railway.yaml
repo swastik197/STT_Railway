@@ -25,4 +25,7 @@ services:
       maxInstances: 1
     resources:
       cpu: 1
-      memory: 2GB 
+      memory: 2GB
+    nixpacks:
+      packages:
+        - ffmpeg 
